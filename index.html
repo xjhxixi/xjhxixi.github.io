@@ -133,6 +133,80 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-MySQL自学总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93/">MySQL自学总结（上）</a>
+    </h1>
+  
+
+        
+        <a href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93/" class="archive-article-date">
+  	<time datetime="2019-12-17T13:50:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-数据库常用语句"><a href="#1-数据库常用语句" class="headerlink" title="1. 数据库常用语句"></a>1. 数据库常用语句</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p //进入数据库命令</span><br><span class="line">show databases; //查看已有数据库</span><br><span class="line">exit //退出</span><br><span class="line">use xxx; //选择数据库 xxx为数据库名称</span><br><span class="line">show tables; //查看数据库中的表单</span><br><span class="line">select database(); //查看自己当前在哪个数据库中</span><br><span class="line">show table from xxx; //查看另外一个数据库中的表单 xxx为数据库名称</span><br><span class="line">create database xxx; //创建新的数据库 xxx为数据库名称</span><br><span class="line">desc xxx; //查看表单中的数据表 xxx为表单名称</span><br><span class="line">select 字段名 from 表名; //查询单个字段</span><br><span class="line">select 字段名,字段名 from 表名; //查询多个字段</span><br><span class="line">select * from 表名; //查询单个表中的全部字段</span><br><span class="line">select 字段名 as 新字段名 from 表名; //给字段取别名，一般用于字段进行平均值等操作后重命名操作后的新字段</span><br><span class="line">select 月薪*12 from 表名; //sql语句中字段名可以进行数字运算，例如算年薪</span><br><span class="line">创建表 create table 表名(</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">);表名的格式一般为t_xx 或者tbl_xx</span><br></pre></td></tr></table></figure>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color1">MySQL</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93/">阅读全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-目标" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -153,8 +227,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="建立这个博客的原因"><a href="#建立这个博客的原因" class="headerlink" title="建立这个博客的原因"></a>建立这个博客的原因</h2><p>在大学的前两年我浑浑噩噩的度过了，并没有什么一技之长，所以在实习期的时候因为自己的能力不足处处碰壁。这才开始后悔，有句话叫种一棵树最好的时间是十年前和今天，所以我搭建了这个博客用来督促自己学习以及记录自己的学习情况</p>
-<h3 id="目标："><a href="#目标：" class="headerlink" title="目标："></a>目标：</h3><blockquote>
+        <h2><span id="建立这个博客的原因">建立这个博客的原因</span></h2><p>在大学的前两年我浑浑噩噩的度过了，并没有什么一技之长，所以在实习期的时候因为自己的能力不足处处碰壁。这才开始后悔，有句话叫种一棵树最好的时间是十年前和今天，所以我搭建了这个博客用来督促自己学习以及记录自己的学习情况</p>
+<h3><span id="目标">目标：</span></h3><blockquote>
 <ul>
 <li><input checked disabled type="checkbox"> JavaSe </li>
 <li><input checked disabled type="checkbox"> 熟练掌握MySQL</li>
@@ -389,7 +463,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">MySQL</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -398,6 +472,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color2">github</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
               </li>
             
             <div class="clearfix"></div>
