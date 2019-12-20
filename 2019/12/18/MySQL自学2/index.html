@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com/child">
-  <title>Archives: 2019 | 小徐今天学习了吗</title>
+  <title>MySQL自学总结（下） | 小徐今天学习了吗</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="小徐今天学习了吗">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;archives&#x2F;2019&#x2F;index.html">
+  <meta name="description" content="数据库表的一系列操作语法1.将旧表的信息插入到新表中（快速插入信息）1234insert into 新表名 select * from 旧表名 where 字段名 = 字段值；&#x2F;&#x2F;例如insert into t_student select * from t_newStudent where class = &amp;apos;A&amp;apos;;&#x2F;&#x2F;关于插入语句字段名必须和被插入表的字段个数和字段类型必须一">
+<meta name="keywords" content="MySQL">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL自学总结（下）">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;12&#x2F;18&#x2F;MySQL%E8%87%AA%E5%AD%A62&#x2F;index.html">
 <meta property="og:site_name" content="小徐今天学习了吗">
+<meta property="og:description" content="数据库表的一系列操作语法1.将旧表的信息插入到新表中（快速插入信息）1234insert into 新表名 select * from 旧表名 where 字段名 = 字段值；&#x2F;&#x2F;例如insert into t_student select * from t_newStudent where class = &amp;apos;A&amp;apos;;&#x2F;&#x2F;关于插入语句字段名必须和被插入表的字段个数和字段类型必须一">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-12-20T02:30:06.376Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="小徐今天学习了吗" type="application/atom+xml">
@@ -131,36 +135,80 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-MySQL自学2" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      MySQL自学总结（下）
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/12/18/MySQL%E8%87%AA%E5%AD%A62/" class="archive-article-date">
+
+        
+        <a href="/2019/12/18/MySQL%E8%87%AA%E5%AD%A62/" class="archive-article-date">
   	<time datetime="2019-12-18T08:52:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-18</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/12/18/MySQL%E8%87%AA%E5%AD%A62/">MySQL自学总结（下）</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1><span id="数据库表的一系列操作语法">数据库表的一系列操作语法</span></h1><h2><span id="1将旧表的信息插入到新表中快速插入信息">1.将旧表的信息插入到新表中（快速插入信息）</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">insert into 新表名 select * from 旧表名 where 字段名 = 字段值；</span><br><span class="line">//例如</span><br><span class="line">insert into t_student select * from t_newStudent where class = &apos;A&apos;;</span><br><span class="line">//关于插入语句字段名必须和被插入表的字段个数和字段类型必须一致</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
+<h2><span id="2复制表语法">2.复制表语法</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create table t_newSutdent as select * from t_student;</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h2><span id="3创建新表">3.创建新表</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">drop table if EXISTS a; //如果数据库中有a表，则删除a表</span><br><span class="line">CREATE TABLE a(</span><br><span class="line">	id int (2),</span><br><span class="line">	name VARCHAR (23)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<h2><span id="4修改表内的字段">4.修改表内的字段</span></h2><p>当表中缺少字段时，可以选择创建(例如增加email字段)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ALTER table a add email VARCHAR(32);</span><br></pre></td></tr></table></figure>
+
+<p>修改表中的字段结构比如长度时：(必须是表内拥有的字段才能修改)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter TABLE a MODIFY id int (4);</span><br></pre></td></tr></table></figure>
+
+<p>删除表中的字段</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table a drop email;</span><br></pre></td></tr></table></figure>
+
+<p>修改字段名称</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table a change email address varchar(15);</span><br></pre></td></tr></table></figure>
+
+<h3><span id="52-unique唯一">5.2 unique唯一</span></h3><p>unique约束的字段具有唯一性，不可重复</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2),</span><br><span class="line">	name VARCHAR (23) unique</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>联合唯一约束</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2),</span><br><span class="line">	name VARCHAR (23)</span><br><span class="line">	unique（id，name）</span><br><span class="line">);// 当两个字段联合唯一约束时，只有两个字段都相同，才会被算作重复，字段1相同字段二不同符合联合唯一</span><br></pre></td></tr></table></figure>
+
+<p>也可以给约束起别名方便删除约束</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2),</span><br><span class="line">	name VARCHAR (23)</span><br><span class="line">	CONSTRAINT a_id_name_unique unique（id，name）</span><br></pre></td></tr></table></figure>
+
+<p>联合使用既不能为空，同时也要有唯一性</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2),</span><br><span class="line">	name VARCHAR (23) not null unique</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<h2><span id="6主键约束-主键既不能重复也不能空主键也可联合约束">6.主键约束 主键既不能重复也不能空,主键也可联合约束</span></h2><p>主键字段会添加索引，默认值为0<br>关键字 PRIMARY KEY</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2) PRIMARY KEY,</span><br><span class="line">	name VARCHAR (23) </span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<h3><span id="61自动生成主键值-auto_increment">6.1自动生成主键值： auto_increment</span></h3><p>会自动生成主键，不需要用户去维护，自动赋值从1开始递增1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">drop table if EXISTS a; </span><br><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2) PRIMARY KEY auto_increment,</span><br><span class="line">	name VARCHAR (23) </span><br><span class="line">);</span><br><span class="line">INSERT into a (name) VALUE(&apos;ceshi&apos;);</span><br></pre></td></tr></table></figure>
+
+<h2><span id="7外健约束-foreign-key">7.外健约束 foreign key</span></h2><p>外健可以有多个<br>外健也可联合约束</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">drop table if EXISTS a; </span><br><span class="line">CREATE TABLE a(</span><br><span class="line">	id int(2) PRIMARY KEY auto_increment,</span><br><span class="line">	name VARCHAR (23), </span><br><span class="line">	classno int (3),</span><br><span class="line">	CONSTRAINT a_classno_fk FOREIGN KEY (classno) REFERENCES b (no)</span><br><span class="line">);</span><br><span class="line">drop table if EXISTS b; </span><br><span class="line">CREATE TABLE b(</span><br><span class="line">	no int (3) PRIMARY KEY,</span><br><span class="line">	classname VARCHAR (23) </span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>外健约束时，应该先创建父表（b），再创建子表（a）<br>子和父是一对多关系，在多的那一方需要添加外健</p>
+<h2><span id="8及连更新和及连删除">8.及连更新和及连删除</span></h2><p>及连删除时需要在外健后添加关键字 on delete cascade</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alter table a drop FOREIGN key a_classno_fk;</span><br><span class="line">alter table a add constraint  a_classno_fk foreign  key (classno) REFERENCES b (no) on DELETE CASCADE;</span><br></pre></td></tr></table></figure>
+
+<p>及连更新 on update cascade</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alter table a drop FOREIGN key a_classno_fk;</span><br><span class="line">alter table a add constraint  a_classno_fk foreign  key (classno) REFERENCES b (no) on update CASCADE;</span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -172,137 +220,122 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" target="_blank" rel="noopener" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" target="_blank" rel="noopener" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;" target="_blank" rel="noopener"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/child/2019/12/18/MySQL%E8%87%AA%E5%AD%A62/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93/" class="archive-article-date">
-  	<time datetime="2019-12-17T13:50:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-17</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">MySQL自学总结（上）</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93/">MySQL自学总结（上）</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color1">MySQL</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/23/%E7%9B%AE%E6%A0%87/" class="archive-article-date">
-  	<time datetime="2019-11-23T12:39:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/23/%E7%9B%AE%E6%A0%87/">个人目标</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color5">plan</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="archive-article-date">
-  	<time datetime="2019-11-23T06:45:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">Windows系统关于个人博客搭建的过程</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color5">blog</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color2">github</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/child/2019/12/18/MySQL%E8%87%AA%E5%AD%A62/",
+  owner: 'xjhxixi',
+  repo: 'xjhxixi.github.io',
+  oauth: {
+    client_id: 'a3c6aaf1f4faf381b31a',
+    client_secret: '6dde9bda95c979443260ac0be8763cf7308a828a',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -329,8 +362,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
