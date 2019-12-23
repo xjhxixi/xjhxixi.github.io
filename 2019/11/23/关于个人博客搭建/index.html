@@ -26,7 +26,7 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&#x2F;12.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&#x2F;13.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&#x2F;14.png">
-<meta property="og:updated_time" content="2019-11-23T09:49:03.000Z">
+<meta property="og:updated_time" content="2019-12-23T01:24:30.156Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&#x2F;1.png">
   
@@ -183,31 +183,31 @@
 
 <p>根据自己的系统选择相应需要下载的版本。</p>
 <p><strong>可以检查一下安装是否完成</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
 
 
 <h1><span id="开始搭建博客">开始搭建博客</span></h1><p>首次安装git的用户需要配置github账户信息</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;xxxx&quot;  //xxxx为你的github用户名</span><br><span class="line">git config --global user.email &quot;xxxxxx@outlook.com&quot;  //xxxxxx@outlook.com为你github的邮箱</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config <span class="comment">--global user.name "xxxx"  //xxxx为你的github用户名</span></span><br><span class="line">git config <span class="comment">--global user.email "xxxxxx@outlook.com"  //xxxxxx@outlook.com为你github的邮箱</span></span><br></pre></td></tr></table></figure>
 
-<h3><span id="1安装cnpm">1.安装cnpm</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.taobao.org</span><br></pre></td></tr></table></figure>
+<h3><span id="1安装cnpm">1.安装cnpm</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> -g cnpm <span class="comment">--registry=https://registry.taobao.org</span></span><br></pre></td></tr></table></figure>
 
 <p>结果：</p>
 <img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/6.png" class title="This is an test image">
 
 <p>验证cnpm是否安装完毕：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
 
-<h3><span id="2使用cnpm安装hexo博客文档">2.使用cnpm安装hexo博客文档</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h3><span id="2使用cnpm安装hexo博客文档">2.使用cnpm安装hexo博客文档</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm <span class="keyword">install</span> -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/8.png" class title="This is an test image">
 
 <p>安装完毕后可验证是否安装成功：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 
-<h3><span id="3创建博客目录">3.创建博客目录</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir blog  //此处的blog可以按自己喜好更改，如果搭建博客的过程中出现问题可以将此目录删除再新建目录重新搭建</span><br><span class="line">//创建完成之后需要切换到blog目录下才能进行后续操作</span><br></pre></td></tr></table></figure>
+<h3><span id="3创建博客目录">3.创建博客目录</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir blog  //此处的blog可以按自己喜好更改，如果搭建博客的过程中出现问题可以将此目录删除再新建目录重新搭建</span><br><span class="line">//创建完成之后需要切换到blog目录下才能进行后续操作</span><br></pre></td></tr></table></figure>
 
-<h3><span id="4使用hexo生成博客">4.使用hexo生成博客</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init //这一步在安装完git之后才能成功</span><br><span class="line">hexo s  //查看博客是否生成</span><br></pre></td></tr></table></figure>
+<h3><span id="4使用hexo生成博客">4.使用hexo生成博客</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init //这一步在安装完git之后才能成功</span><br><span class="line">hexo s  //查看博客是否生成</span><br></pre></td></tr></table></figure>
 
 <p>并访问本地地址：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> </p>
 <img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/10.png" class title="This is an test image">
@@ -215,9 +215,9 @@
 <h1><span id="将博客部署到github上">将博客部署到github上</span></h1><h3><span id="1登录自己的github账户并创建一个新的库">1.登录自己的github账户并创建一个新的库</span></h3><img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/11.png" class title="This is an test image">
 
 <p>库的名字为你的github昵称加上.github.io后缀，如我的就为xjhxixi.github.io</p>
-<h3><span id="2安装git部署插件">2.安装git部署插件</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<h3><span id="2安装git部署插件">2.安装git部署插件</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm <span class="keyword">install</span> <span class="comment">--save hexo-deployer-git</span></span><br></pre></td></tr></table></figure>
 
-<h3><span id="3打开config全局部署文件">3.打开config全局部署文件</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">notepad _config.yml</span><br></pre></td></tr></table></figure>
+<h3><span id="3打开config全局部署文件">3.打开config全局部署文件</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">notepad _config.yml</span><br></pre></td></tr></table></figure>
 
 <p>修改Deployment内的部分</p>
 <img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/12.png" class title="This is an test image">
@@ -226,7 +226,7 @@
 <p><strong>冒号后一定要空格</strong>！！！！！！！</p>
 <img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/13.png" class title="This is an test image">
 
-<h3><span id="4将博客部署到github远端">4.将博客部署到github远端</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h3><span id="4将博客部署到github远端">4.将博客部署到github远端</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
 <p>然后就可以在远端访问自己的博客啦<del>~</del></p>
 <p>访问地址为：</p>
@@ -237,16 +237,16 @@
 <h1><span id="tips">tips</span></h1><blockquote>
 <p>在编写完自己的博客内容时需要进行以下的步骤</p>
 </blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  //清除缓存文件</span><br><span class="line">hexo g  //生成静态文件</span><br><span class="line">hexo s  //启动服务器，默认情况下，访问网址为： http://localhost:4000/</span><br><span class="line">hexo d  //部署网站</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  //清除缓存文件</span><br><span class="line">hexo g  //生成静态文件</span><br><span class="line">hexo s  //启动服务器，默认情况下，访问网址为： http://localhost:4000/</span><br><span class="line">hexo d  //部署网站</span><br></pre></td></tr></table></figure>
 
 <p>如果需要新建博客内容的话有两种方法</p>
-<h4><span id="1">1</span></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;博客标题&quot;</span><br></pre></td></tr></table></figure>
+<h4><span id="1">1</span></h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n "博客标题"</span><br></pre></td></tr></table></figure>
 
 <h4><span id="2">2</span></h4><blockquote>
 <p>新建记事本将文件后缀改为md并放到blog(自己取的名字)\source\ _posts里</p>
 </blockquote>
 <p>如果安装了vim插件可以这样编写</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim 博客文件名.md</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim 博客文件名.md</span><br></pre></td></tr></table></figure>
 
 <p>也可以安装其他插件来编写md文件</p>
 <h1><span id="参考资料">参考资料</span></h1><p><a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186</a></p>
