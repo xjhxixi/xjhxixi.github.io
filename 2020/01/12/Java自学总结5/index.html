@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com/child">
-  <title>Archives: 2019/11 | 小徐今天学习了吗</title>
+  <title>Java自学总结(5) | 小徐今天学习了吗</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="小徐今天学习了吗">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;archives&#x2F;2019&#x2F;11&#x2F;index.html">
+  <meta name="description" content="关于Java数组1.一维数组 数组长度一旦确定无法更改。 数组里的数据必须是相同类型或自动向上转型后兼容的类型  一维数组的初始化： 方法一：静态初始化1234567package Test;public class Test &amp;#123;	public static void main (String[] args) &amp;#123;		int[] a = &amp;#123;1,2,3,4&amp;#125;;">
+<meta name="keywords" content="JavaSE">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java自学总结(5)">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2020&#x2F;01&#x2F;12&#x2F;Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935&#x2F;index.html">
 <meta property="og:site_name" content="小徐今天学习了吗">
+<meta property="og:description" content="关于Java数组1.一维数组 数组长度一旦确定无法更改。 数组里的数据必须是相同类型或自动向上转型后兼容的类型  一维数组的初始化： 方法一：静态初始化1234567package Test;public class Test &amp;#123;	public static void main (String[] args) &amp;#123;		int[] a = &amp;#123;1,2,3,4&amp;#125;;">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-01-13T02:40:07.885Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="小徐今天学习了吗" type="application/atom+xml">
@@ -131,102 +135,234 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Java自学总结5" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/23/%E7%9B%AE%E6%A0%87/" class="archive-article-date">
-  	<time datetime="2019-11-23T12:39:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-23</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/23/%E7%9B%AE%E6%A0%87/">个人目标</a>
+    <h1 class="article-title" itemprop="name">
+      Java自学总结(5)
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2020/01/12/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935/" class="archive-article-date">
+  	<time datetime="2020-01-12T04:52:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-12</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1><span id="关于java数组">关于Java数组</span></h1><h2><span id="1一维数组">1.一维数组</span></h2><ul>
+<li>数组长度一旦确定无法更改。</li>
+<li>数组里的数据必须是相同类型或自动向上转型后兼容的类型</li>
+</ul>
+<p><strong>一维数组的初始化：</strong></p>
+<h5><span id="方法一静态初始化">方法一：静态初始化</span></h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>&#125;;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h5><span id="方法二动态初始化">方法二：动态初始化</span></h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>];<span class="comment">// 开辟数组的空间</span></span><br><span class="line">		b[<span class="number">0</span>] = <span class="number">1</span>;<span class="comment">// 数组的下标从0开始</span></span><br><span class="line">		b[<span class="number">1</span>] = <span class="number">2</span>;</span><br><span class="line">		b[<span class="number">2</span>] = <span class="number">3</span>;</span><br><span class="line">		b[<span class="number">3</span>] = <span class="number">4</span>;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5><span id="数组的默认值">数组的默认值</span></h5><table>
+<thead>
+<tr>
+<th>数组类型</th>
+<th>初始值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>byte</td>
+<td>0</td>
+</tr>
+<tr>
+<td>short</td>
+<td>0</td>
+</tr>
+<tr>
+<td>int</td>
+<td>0</td>
+</tr>
+<tr>
+<td>long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>float</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>double</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>false</td>
+</tr>
+<tr>
+<td>char</td>
+<td>编码为0的字符</td>
+</tr>
+<tr>
+<td>String</td>
+<td>null</td>
+</tr>
+</tbody></table>
+<h2><span id="2-二维数组">2.    二维数组</span></h2><ul>
+<li>格式：int [][] i =new int[一维数组长度]  [二维数组长度];</li>
+</ul>
+<p><strong>二维数组的初始化：</strong></p>
+<p><strong>方法一：静态初始化</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[][] b = &#123;&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;,&#123;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>&#125;&#125;;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>方法二：动态初始化</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[][] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>][<span class="number">4</span>];</span><br><span class="line">		b[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">1</span>] = <span class="number">2</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">2</span>] = <span class="number">3</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">3</span>] = <span class="number">4</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">0</span>] = <span class="number">5</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">1</span>] = <span class="number">6</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">2</span>] = <span class="number">7</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">3</span>] = <span class="number">8</span>; </span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2><span id="3-数组的遍历">3.    数组的遍历</span></h2><p><strong>一维数组的遍历：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>];</span><br><span class="line">		b[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">		b[<span class="number">1</span>] = <span class="number">2</span>;</span><br><span class="line">		b[<span class="number">2</span>] = <span class="number">3</span>;</span><br><span class="line">		b[<span class="number">3</span>] = <span class="number">4</span>;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; b.length;i++) &#123;</span><br><span class="line">			System.out.println(b[i]);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	运行结果为</span></span><br><span class="line"><span class="comment">	1</span></span><br><span class="line"><span class="comment">	2</span></span><br><span class="line"><span class="comment">	3</span></span><br><span class="line"><span class="comment">	4</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>二维数组的遍历：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[][] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>][<span class="number">4</span>];</span><br><span class="line">		b[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">1</span>] = <span class="number">2</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">2</span>] = <span class="number">3</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">3</span>] = <span class="number">4</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">0</span>] = <span class="number">5</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">1</span>] = <span class="number">6</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">2</span>] = <span class="number">7</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">3</span>] = <span class="number">8</span>;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; b.length;i++) &#123;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; b[i].length;j++) &#123;</span><br><span class="line">				System.out.print(b[i][j] + <span class="string">" "</span>);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	运行结果为</span></span><br><span class="line"><span class="comment">	1 2 3 4 5 6 7 8 </span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color5">plan</a>
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color2">JavaSE</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" target="_blank" rel="noopener" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" target="_blank" rel="noopener" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;" target="_blank" rel="noopener"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/child/2020/01/12/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="archive-article-date">
-  	<time datetime="2019-11-23T06:45:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-23</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/01/09/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%934/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Java自学总结(4)</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">Windows系统关于个人博客搭建的过程</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color5">blog</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color2">github</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/child/2020/01/12/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935/",
+  owner: 'xjhxixi',
+  repo: 'xjhxixi.github.io',
+  oauth: {
+    client_id: 'a3c6aaf1f4faf381b31a',
+    client_secret: '6dde9bda95c979443260ac0be8763cf7308a828a',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
@@ -253,8 +389,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
