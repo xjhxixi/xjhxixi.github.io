@@ -6,17 +6,13 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com/child">
-  <title>MySQL自学总结（上） | 小徐今天学习了吗</title>
+  <title>小徐今天学习了吗</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1. 数据库常用语句1234567891011121314151617181920mysql -u root -p &#x2F;&#x2F;进入数据库命令show databases; &#x2F;&#x2F;查看已有数据库exit &#x2F;&#x2F;退出use xxx; &#x2F;&#x2F;选择数据库 xxx为数据库名称show tables; &#x2F;&#x2F;查看数据库中的表单select database(); &#x2F;&#x2F;查看自己当前在哪个数据库中show table from">
-<meta name="keywords" content="MySQL">
-<meta property="og:type" content="article">
-<meta property="og:title" content="MySQL自学总结（上）">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;12&#x2F;17&#x2F;MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93%20&#x2F;index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="小徐今天学习了吗">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;page&#x2F;2&#x2F;index.html">
 <meta property="og:site_name" content="小徐今天学习了吗">
-<meta property="og:description" content="1. 数据库常用语句1234567891011121314151617181920mysql -u root -p &#x2F;&#x2F;进入数据库命令show databases; &#x2F;&#x2F;查看已有数据库exit &#x2F;&#x2F;退出use xxx; &#x2F;&#x2F;选择数据库 xxx为数据库名称show tables; &#x2F;&#x2F;查看数据库中的表单select database(); &#x2F;&#x2F;查看自己当前在哪个数据库中show table from">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-01-08T01:28:27.832Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="小徐今天学习了吗" type="application/atom+xml">
@@ -135,208 +131,31 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-MySQL自学总结 " class="article article-type-post " itemscope itemprop="blogPost">
+            
+  
+    <article id="post-关于个人博客搭建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 class="article-title" itemprop="name">
-      MySQL自学总结（上）
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">Windows系统关于个人博客搭建的过程</a>
     </h1>
   
 
         
-        <a href="/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93%20/" class="archive-article-date">
-  	<time datetime="2019-12-17T13:50:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-17</time>
+        <a href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="archive-article-date">
+  	<time datetime="2019-11-23T06:45:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-23</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2><span id="1-数据库常用语句">1. 数据库常用语句</span></h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p //进入数据库命令</span><br><span class="line"><span class="keyword">show</span> <span class="keyword">databases</span>; //查看已有数据库</span><br><span class="line">exit //退出</span><br><span class="line"><span class="keyword">use</span> xxx; //选择数据库 xxx为数据库名称</span><br><span class="line"><span class="keyword">show</span> <span class="keyword">tables</span>; //查看数据库中的表单</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">database</span>(); //查看自己当前在哪个数据库中</span><br><span class="line"><span class="keyword">show</span> <span class="keyword">table</span> <span class="keyword">from</span> xxx; //查看另外一个数据库中的表单 xxx为数据库名称</span><br><span class="line"><span class="keyword">create</span> <span class="keyword">database</span> xxx; //创建新的数据库 xxx为数据库名称</span><br><span class="line">desc xxx; //查看表单中的数据表 xxx为表单名称</span><br><span class="line"><span class="keyword">select</span> 字段名 <span class="keyword">from</span> 表名; //查询单个字段</span><br><span class="line"><span class="keyword">select</span> 字段名,字段名 <span class="keyword">from</span> 表名; //查询多个字段</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> 表名; //查询单个表中的全部字段</span><br><span class="line"><span class="keyword">select</span> 字段名 <span class="keyword">as</span> 新字段名 <span class="keyword">from</span> 表名; //给字段取别名，一般用于字段进行平均值等操作后重命名操作后的新字段</span><br><span class="line"><span class="keyword">select</span> 月薪*<span class="number">12</span> <span class="keyword">from</span> 表名; //sql语句中字段名可以进行数字运算，例如算年薪</span><br><span class="line">创建表 <span class="keyword">create</span> <span class="keyword">table</span> 表名(</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">	字段名称 字段类型 字段长度 字段约束,</span><br><span class="line">);表名的格式一般为t_xx 或者tbl_xx</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p><strong>数据库中的语句基本分为四大块</strong></p>
-<ul>
-<li>DQL语句 数据库查询语言：select</li>
-</ul>
-<ul>
-<li>DML语句 数据库操作语句：insert（新增） delete（删除） update（修改）</li>
-</ul>
-<ul>
-<li>DDL语句 数据库定义语言：create drop alter</li>
-</ul>
-<ul>
-<li>TCL语句 事物控制语言：commit rollback</li>
-</ul>
-<h2><span id="2-数据库中的条件语句where">2. 数据库中的条件语句Where</span></h2><p>条件查询语句：where 加在表名后，例如查询年龄超过20的学生：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">where</span> age &gt; <span class="number">20</span>;</span><br><span class="line">//这里的name为学生姓名，age为学生年龄</span><br><span class="line">//支持以下运算符：&gt; , &gt;= , &lt; , &lt;= ，= , &lt;&gt;(等同于java中的!=，尽量使用&lt;&gt;)</span><br></pre></td></tr></table></figure>
-
-<p>例如找出年龄在18-25之间的学生：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">where</span> age &gt;= <span class="number">18</span> <span class="keyword">and</span> age &lt;= <span class="number">25</span>;</span><br></pre></td></tr></table></figure>
-
-<p>这种写法较为繁琐，所以可以使用between…and…语句来替代，替代方法为：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">where</span> age <span class="keyword">between</span> <span class="number">18</span> <span class="keyword">and</span> <span class="number">25</span>;</span><br><span class="line">//between...and...(等同于java中的 &gt;= and &lt;=,类似java中的 &amp;&amp;)</span><br><span class="line"></span><br><span class="line">//若要找出年龄在18到25之间但不包括18和25的学生，则不可使用between，between包括边界值</span><br></pre></td></tr></table></figure>
-
-<h2><span id="3-is-null语句用法">3. is null语句用法</span></h2><p>例如查询邮箱为空的学生有哪些：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,email <span class="keyword">from</span> t_student <span class="keyword">where</span> email <span class="keyword">is</span> <span class="literal">null</span>;</span><br><span class="line">//is null用于查找null，若要查找不为空可以用is not null</span><br></pre></td></tr></table></figure>
-
-<p>查询年龄大于18并且班级编号为1或者2的学生：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age,classno <span class="keyword">from</span> t_student <span class="keyword">where</span> age &gt; <span class="number">18</span> <span class="keyword">and</span> (classno = <span class="number">1</span> <span class="keyword">or</span> classno = <span class="number">2</span>);</span><br></pre></td></tr></table></figure>
-
-<p>and 并且，or 或者，in 包含，相当于多个or（not in 不在这个范围中）,not 可以取非，主要用在is和in中</p>
-<h2><span id="4-模糊搜索-like">4. 模糊搜索 like ‘%  %’</span></h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span> <span class="keyword">from</span> t_student <span class="keyword">where</span> <span class="keyword">like</span> <span class="string">'%s%'</span>; //名字中带有s的学生</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span> <span class="keyword">from</span> t_student <span class="keyword">where</span> <span class="keyword">like</span> <span class="string">'s%'</span>; //查找名字首字母为s的学生</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span> <span class="keyword">from</span> t_student <span class="keyword">where</span> <span class="keyword">like</span> <span class="string">'_s%'</span>; //查找名字第二个母为s的学生，_为占位符</span><br></pre></td></tr></table></figure>
-
-<p>like 模糊查询，支持%或下划线匹配任意个字符，一个下划线只匹配一个字符</p>
-<h2><span id="5-数据排序-order-by">5. 数据排序 order by</span></h2><p>排序采用oeder by语句</p>
-<ul>
-<li>order后跟上排序字段，可以放多个排序字段，使用逗号隔开</li>
-</ul>
-<ul>
-<li>order by默认采用升序 asc</li>
-</ul>
-<ul>
-<li>如果存在where语句，order by必须放到where语句的后面</li>
-</ul>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//按照学生的年龄排序</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">order</span> <span class="keyword">by</span> age; //此处省略asc，因为系统默认升序排序</span><br><span class="line">//按照降序排序</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span>;</span><br></pre></td></tr></table></figure>
-
-<p>当多个字段需要排序时，例如要求学生班级编号升序，学生年龄降序</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> classno,<span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">order</span> <span class="keyword">by</span> classno,age <span class="keyword">desc</span>;</span><br><span class="line">//当where和order by同时出现时</span><br><span class="line">//找出年龄大于16的学生，并按照年龄从高到低排</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">where</span> age &gt; <span class="number">16</span> <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span>;</span><br></pre></td></tr></table></figure>
-
-<h2><span id="6-单行处理函数">6. 单行处理函数</span></h2><h3><span id="61-将字段变成大小写显示">6.1 将字段变成大小写显示</span></h3><p>lower小写 upper大写</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//将学生的名字改为全大写显示</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">upper</span>(<span class="keyword">name</span>) <span class="keyword">as</span> uppername <span class="keyword">from</span> t_student;</span><br><span class="line">//将学生的名字改为全小写显示</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">lower</span>(<span class="keyword">name</span>) <span class="keyword">as</span> lowername <span class="keyword">from</span> t_student;</span><br></pre></td></tr></table></figure>
-
-<h3><span id="62-substr-取子串-截取字段">6.2 substr 取子串 (截取字段)</span></h3><p>使用方法：substr(字符串，起始下标，截取长度)</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">substr</span>(<span class="keyword">name</span>,<span class="number">1</span>,<span class="number">1</span>) <span class="keyword">from</span> t_student;</span><br><span class="line">//截取名字字段的首字母</span><br><span class="line">//其中(name,1,1)第一个1表示起始位置，第二个1代表截取长度</span><br><span class="line">//截取3-5位的字母</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">substr</span>(<span class="keyword">name</span>,<span class="number">3</span>,<span class="number">3</span>) <span class="keyword">from</span> t_student;</span><br></pre></td></tr></table></figure>
-
-<h3><span id="63-length取长度查询字符串的长度">6.3 length取长度（查询字符串的长度）</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//查询name字段的长度</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">length</span>(<span class="keyword">name</span>) <span class="keyword">as</span> namelength <span class="keyword">from</span> t_student;</span><br></pre></td></tr></table></figure>
-
-<h3><span id="64-trim去除字段前后空格">6.4 trim去除字段前后空格</span></h3><p>sql中默认省略后方空格,但在字段前要是用户输入了空格后会导致查询不到信息</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//例如用户输入一个字段为’			xjh  ‘的学生姓名存在name中</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span> <span class="keyword">from</span> t_student <span class="keyword">where</span> <span class="keyword">name</span> =<span class="keyword">trim</span>(<span class="string">'			xjh  '</span>)</span><br></pre></td></tr></table></figure>
-
-<h3><span id="65-round四舍五入">6.5 round四舍五入</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">round</span>(<span class="number">123.56</span>); //124</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">round</span>(<span class="number">123.56</span>,<span class="number">0</span>); //124</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">round</span>(<span class="number">123.56</span>,<span class="number">1</span>); //123.6</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">round</span>(<span class="number">123.546</span>,<span class="number">-1</span>); //120</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">round</span>(<span class="number">123.546</span>,<span class="number">-2</span>); //100</span><br></pre></td></tr></table></figure>
-
-<h3><span id="66-rand生成一个随机数">6.6 rand生成一个随机数</span></h3><p>rand一般与round一起使用，因为rand生成的不是整数</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//rand()的默认取值范围为0-1</span><br><span class="line">//取一个0-122的整数随机数</span><br><span class="line">select round(rand()*122); //因为rand的取值范围为0-1，所以取0-122的范围直接*122就可以</span><br></pre></td></tr></table></figure>
-
-<h3><span id="67-case用法">6.7 case用法</span></h3><p>case的用法类似于java中的case，但不完全相同。</p>
-<p>例如当学生班级编号为1时，学生年龄上调10%，当编号为2时年龄上调20%，其他人年龄不变。</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,classno,(<span class="keyword">case</span> classno</span><br><span class="line">	<span class="keyword">when</span> classno <span class="string">'1'</span> <span class="keyword">then</span> age * <span class="number">0.1</span></span><br><span class="line">	<span class="keyword">when</span> classno <span class="string">'2'</span> <span class="keyword">then</span> age * <span class="number">0.2</span></span><br><span class="line">	<span class="keyword">else</span> age</span><br><span class="line">	<span class="keyword">end</span>) <span class="keyword">as</span> newage <span class="keyword">from</span> t_student;</span><br></pre></td></tr></table></figure>
-
-<h3><span id="68-ifnull">6.8 ifnull</span></h3><p>当字段的值出现null时使用</p>
-<p>例如学生的期末成绩，有的学生有事没来考试，成绩就为null</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,<span class="keyword">ifnull</span>(score,<span class="number">0</span>) <span class="keyword">as</span> finalscore <span class="keyword">from</span> t_score; //当score值为null时，将null值变成0</span><br></pre></td></tr></table></figure>
-
-<h3><span id="69-日期字符串">6.9 日期字符串</span></h3><p><code>str_to_date</code> 将‘日期字符串’转换为‘日期类型’</p>
-<p>%Y 四位数的年份</p>
-<p>%y 两位数的年份</p>
-<p>%M 两位数的月份，格式为01，02，03，04</p>
-<p>%m 一位数的月份，格式为1，2，3，4</p>
-<p>%d 代表日</p>
-<p>%H 24小时制</p>
-<p>%h 12小时制</p>
-<p>%i 代表分钟，格式为00，01，02</p>
-<p>%s或%S 代表秒，格式为00，01，02</p>
-<p><strong>例如：搜索在2019.9.1日录取的学生</strong></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,<span class="built_in">date</span> <span class="keyword">from</span> t_startDate <span class="keyword">where</span> <span class="built_in">date</span> = <span class="string">'2019-9-1'</span>;</span><br><span class="line">//MySQL默认格式为‘yyyy-mm-dd’</span><br><span class="line">//当输入的日期格式不是mysql默认格式时，会报错，此时就需要用到str_to_date</span><br><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,<span class="built_in">date</span> <span class="keyword">from</span> t_startDate <span class="keyword">where</span> <span class="built_in">date</span> =<span class="keyword">str_to_date</span>(<span class="string">'12-3-2019'</span>,<span class="string">'%m-%d-%Y'</span>); //将日期格式变为后面的格式显示出来</span><br></pre></td></tr></table></figure>
-
-<p><code>date_format</code>将日期转换为特定格式的字符串</p>
-<p>例如库中显示的日期格式为默认格式，查询学生出生日期以日月年格式表达</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,date_forma(<span class="built_in">date</span>,<span class="string">'%d-%m-%Y'</span>) <span class="built_in">date</span> <span class="keyword">from</span> t_startDate;</span><br></pre></td></tr></table></figure>
-
-<h2><span id="7多行处理函数">7.多行处理函数</span></h2><p><u><strong>多行处理函数会自动忽略空值</strong></u></p>
-<h3><span id="71-sum求和">7.1 sum求和</span></h3><p>计算全班学生的年龄总和：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">sum</span>(age) <span class="keyword">as</span> sumAge <span class="keyword">from</span> t_student;</span><br></pre></td></tr></table></figure>
-
-<h3><span id="72-avg求平均值">7.2 avg求平均值</span></h3><p>计算全班学生的平均年龄：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">avg</span>(age) <span class="keyword">as</span> avgAge <span class="keyword">from</span> t_sutdent;</span><br></pre></td></tr></table></figure>
-
-<h3><span id="73-max最大值-min最小值">7.3 max最大值 min最小值</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">max</span>(age) <span class="keyword">as</span> maxAge <span class="keyword">from</span> t_sutdent; //最大值</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">min</span>(age) <span class="keyword">as</span> minAge <span class="keyword">from</span> t_sutdent; //最小值</span><br></pre></td></tr></table></figure>
-
-<h3><span id="74-count取得记录数函数">7.4 count取得记录数函数</span></h3><p>count只有两种写法，一种是count（*），另一种是count（字段）</p>
-<p>例如查找空的邮箱时：（显示的结果为数字，显示查找的字段有几条）</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">count</span>(*) <span class="keyword">from</span> t_student <span class="keyword">where</span> email <span class="keyword">is</span> <span class="literal">null</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">count</span>(*) <span class="keyword">from</span> t_student; //查找表中所有的字段数</span><br></pre></td></tr></table></figure>
-
-<h3><span id="75-distinct去重关键字">7.5 distinct去重关键字</span></h3><p> distinct只能出现在所有字段的最前方，多字段被称为联合去重</p>
-<p>使用方法为distinct 字段名或者distinct 字段名1，字段名2，例如<code>distinct name，id</code></p>
-<h3><span id="76-分组函数-group-by">7.6 分组函数 group by</span></h3><p>例如分组排序每个班级学生的最高年龄,按照升序排列</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> classno,<span class="keyword">name</span>,<span class="keyword">max</span>(age) <span class="keyword">as</span> maxAge</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> t_student</span><br><span class="line"></span><br><span class="line"><span class="keyword">group</span> <span class="keyword">by</span> classno</span><br><span class="line"></span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> maxAge;</span><br></pre></td></tr></table></figure>
-
-<p><code>having</code>同样是数据过滤条件，在数据分组完毕时候对数据不满意时就可以使用<code>having</code></p>
-<p>例如，找出每个班级学生的平均年龄，要求显示平均年龄大于18</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> classno,<span class="keyword">avg</span>(age) <span class="keyword">as</span> avgAge</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> t_student</span><br><span class="line"></span><br><span class="line"><span class="keyword">group</span> <span class="keyword">by</span> classno</span><br><span class="line"></span><br><span class="line"><span class="keyword">having</span> avgAge &gt; <span class="number">18</span>;</span><br></pre></td></tr></table></figure>
-
-<p>having需要和group by一起使用</p>
-<h2><span id="8跨表查询">8.跨表查询</span></h2><p>跨表查询</p>
-<p>年代分类</p>
-<p>SQL 92</p>
-<p>SQL 99</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.name,b.no</span><br><span class="line"><span class="keyword">from</span> t_sudent <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">join</span> t_sudentClass <span class="keyword">as</span> s</span><br><span class="line"><span class="keyword">on</span> t.classno = s.no</span><br><span class="line"><span class="keyword">where</span> 数据过滤条件;</span><br></pre></td></tr></table></figure>
-
-<p>连接方式分类</p>
-<p>内连接</p>
-<p>等值连接 省略了一个关键字 inner</p>
-<p>学生对应的班级</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.name,c.class</span><br><span class="line"><span class="keyword">from</span> t_sudent <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">join</span> t_scoreClass <span class="keyword">as</span> c</span><br><span class="line"><span class="keyword">on</span> t.classno = c.no;</span><br></pre></td></tr></table></figure>
-
-<p>非等值连接</p>
-<p>查询学生成绩对应的等级</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.score,g.grade</span><br><span class="line"><span class="keyword">from</span> t_sudentScore <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">join</span> t_scoreGrade <span class="keyword">as</span> g</span><br><span class="line"><span class="keyword">on</span> t.score = g.grade</span><br><span class="line"><span class="keyword">where</span> t.score <span class="keyword">between</span> g.highScore <span class="keyword">and</span> g.lowScore;</span><br></pre></td></tr></table></figure>
-
-<p>自连接-把一张表当作两张表来看</p>
-<p>查询学生所对应的班主任名字，要求显示学生名字和对应的班主任名字</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.name,g.teacher</span><br><span class="line"><span class="keyword">from</span> t_sudent <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">join</span> t_sudent <span class="keyword">as</span> g</span><br><span class="line"><span class="keyword">on</span> t.name = g.teacher;</span><br></pre></td></tr></table></figure>
-
-<p>外连接 省略关键字 outer</p>
-<p>左外连接/左连接</p>
-<p>显示所有的学生的家长联系方式</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.name,f.phone</span><br><span class="line"><span class="keyword">from</span> t_sudentFamily <span class="keyword">as</span> f</span><br><span class="line"><span class="keyword">left</span> <span class="keyword">outer</span> <span class="keyword">join</span> t_sudent <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">on</span> t.family = f.phone</span><br></pre></td></tr></table></figure>
-
-<p>右外链接/右连接 将表右边的属性无条件显示出来，无法匹配的用null代替</p>
-<p>显示所有的学生的家长联系方式</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.name,f.phone</span><br><span class="line"><span class="keyword">from</span> t_sudent <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">right</span> <span class="keyword">outer</span> <span class="keyword">join</span> t_sudentFamily <span class="keyword">as</span> f</span><br><span class="line"><span class="keyword">on</span> t.family = f.phone</span><br></pre></td></tr></table></figure>
-
-<p>关于左右连接的总结</p>
-<ul>
-<li><p>哪个表要全部展示,就看”没有”“全部”这样的字修饰哪个表.</p>
-</li>
-<li><p>如果想用左连接让该表全部展示，那么就将他放在join的左边,如果想用右连接让该表全部展示,那么就将他放在join的右边.</p>
-</li>
-<li><p>如果表在join的左边,我想然他全部展示,就用左连接,如果表在join的右边,我想让他全部展示,就用右连接</p>
-</li>
-</ul>
-<p>多表连接</p>
-<p>查看学生的成绩，等级</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> t.name,s.score,g.grade</span><br><span class="line"><span class="keyword">from</span> t_sudent <span class="keyword">as</span> t</span><br><span class="line"><span class="keyword">join</span> t_score <span class="keyword">as</span> s</span><br><span class="line"><span class="keyword">on</span> t.id = c.studentId;</span><br><span class="line">join t_scoreGrade as g</span><br><span class="line">on s.score between g.highscore and g.lowscore;</span><br></pre></td></tr></table></figure>
-
-<h2><span id="9-子查询">9. 子查询</span></h2><p>select语句嵌套select语句被称为子查询</p>
-<p>select子语句可以出现在select，where，from后面</p>
-<p>找出年龄比班级平均年龄高的学生，要求显示学生姓名和年龄：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_sudent <span class="keyword">where</span> age &gt; (<span class="keyword">select</span> <span class="keyword">avg</span>(age) <span class="keyword">from</span> t_sudent);</span><br></pre></td></tr></table></figure>
-
-<h2><span id="10-limit">10. limit</span></h2><p>只在mysql中起作用，作用为获取表前几行或者中间几行的数据</p>
-<p>用法：limit 起始下标m，长度n</p>
-<p>m：记录开始的index，默认从0开始，表示第一条记录</p>
-<p>n：指从第m + 1开始，取n条</p>
-<p>查询前五条信息：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> t_student <span class="keyword">limit</span> <span class="number">0</span>,<span class="number">5</span>; //0为默认值可以不写</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> t_student <span class="keyword">limit</span> <span class="number">5</span>; //缩写前提为0</span><br></pre></td></tr></table></figure>
-
-<p>查询年龄最大的五名的学生</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span> <span class="keyword">limit</span> <span class="number">5</span>;</span><br></pre></td></tr></table></figure>
-
-<p>查询年龄最大的5-8名的学生</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> t_student <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span> <span class="keyword">limit</span> <span class="number">4</span>,<span class="number">4</span>;</span><br></pre></td></tr></table></figure>
-
-<p>分页</p>
-<p>页码：pageNo 每页数据数量：pageSize</p>
-<p>第一页 123    <code>limit 0,3</code></p>
-<p>第二页 456    <code>limit 3,3</code></p>
-<p>第三页 789    <code>limit 6,3</code></p>
-<p>第pageNo页  <code>limit (pageNo-1)*pageSize,pageSize</code></p>
-
+        <h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h3 id="1-下载node-js"><a href="#1-下载node-js" class="headerlink" title="1.下载node.js"></a>1.下载node.js</h3><p>进入<a href="http://nodejs.cn/" target="_blank" rel="noopener">http://nodejs.cn/</a> 官网。</p>
+ <img src="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/1.png" class title="This is an test image">
+        
       
 
       
@@ -349,7 +168,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color1">MySQL</a>
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color5">blog</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color2">github</a>
         		</li>
       		
 		</ul>
@@ -358,84 +181,16 @@
       
 
       
-
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/11/23/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">阅读全文 >></a>
+        </p>
       
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" target="_blank" rel="noopener" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" target="_blank" rel="noopener" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
-        </div>
-      </div>
-    </span>
-  </div>
-</div>
 
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;" target="_blank" rel="noopener"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/child/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93%20/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2019/12/18/MySQL%E8%87%AA%E5%AD%A62/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          MySQL自学总结（下）
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2019/11/23/%E7%9B%AE%E6%A0%87/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">个人目标</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -455,30 +210,12 @@
 
 
 
-  
-  
-  
 
   
-
   
-
-  
-  <div id="gitment-ctn"></div> 
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://www.wenjunjiang.win/js/gitment.js"></script>
-<script>
-var gitment = new Gitment({
-  id: "http://yoursite.com/child/2019/12/17/MySQL%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%93%20/",
-  owner: 'xjhxixi',
-  repo: 'xjhxixi.github.io',
-  oauth: {
-    client_id: 'a3c6aaf1f4faf381b31a',
-    client_secret: '6dde9bda95c979443260ac0be8763cf7308a828a',
-  },
-})
-gitment.render('gitment-ctn')
-</script>
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </nav>
   
 
 
@@ -505,8 +242,8 @@ gitment.render('gitment-ctn')
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: false,
-		isPost: true,
+		isHome: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
@@ -576,15 +313,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">blog</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color2">github</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
               </li>
             
             <div class="clearfix"></div>
