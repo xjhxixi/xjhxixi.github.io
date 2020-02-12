@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com/child">
-  <title>Java自学总结(3) | 小徐今天学习了吗</title>
+  <title>Java知识梳理(五) | 小徐今天学习了吗</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Java中的抽象和接口1.抽象类抽象的定义： 抽象是把多个事物的共性的内容抽取出来，本质就是把我们关注的内容抽取出来。（比如：地铁、汽车、飞机都属于交通工具，交通工具就是我们抽象出的概念）。 关于抽象类： Java中可以定义没有方法体的方法，该方法由其子类具体的实现，该没有方法体的方法我们称之为抽象方法，含有抽象方法的类我们称之为抽象类。">
+  <meta name="description" content="数组1.一维数组 数组长度一旦确定无法更改。 数组里的数据必须是相同类型或自动向上转型后兼容的类型  一维数组的初始化： 方法一：静态初始化1234567package Test;public class Test &amp;#123;	public static void main (String[] args) &amp;#123;		int[] a = &amp;#123;1,2,3,4&amp;#125;;	&amp;#125;">
 <meta name="keywords" content="JavaSE">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java自学总结(3)">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2020&#x2F;01&#x2F;03&#x2F;Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933&#x2F;index.html">
+<meta property="og:title" content="Java知识梳理(五)">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2020&#x2F;01&#x2F;12&#x2F;Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865&#x2F;index.html">
 <meta property="og:site_name" content="小徐今天学习了吗">
-<meta property="og:description" content="Java中的抽象和接口1.抽象类抽象的定义： 抽象是把多个事物的共性的内容抽取出来，本质就是把我们关注的内容抽取出来。（比如：地铁、汽车、飞机都属于交通工具，交通工具就是我们抽象出的概念）。 关于抽象类： Java中可以定义没有方法体的方法，该方法由其子类具体的实现，该没有方法体的方法我们称之为抽象方法，含有抽象方法的类我们称之为抽象类。">
+<meta property="og:description" content="数组1.一维数组 数组长度一旦确定无法更改。 数组里的数据必须是相同类型或自动向上转型后兼容的类型  一维数组的初始化： 方法一：静态初始化1234567package Test;public class Test &amp;#123;	public static void main (String[] args) &amp;#123;		int[] a = &amp;#123;1,2,3,4&amp;#125;;	&amp;#125;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-01-08T01:28:27.000Z">
+<meta property="og:updated_time" content="2020-02-12T07:24:27.447Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="小徐今天学习了吗" type="application/atom+xml">
@@ -135,98 +135,99 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Java自学总结3" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Java知识梳理5" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Java自学总结(3)
+      Java知识梳理(五)
     </h1>
   
 
         
-        <a href="/2020/01/03/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933/" class="archive-article-date">
-  	<time datetime="2020-01-03T03:36:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-03</time>
+        <a href="/2020/01/12/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865/" class="archive-article-date">
+  	<time datetime="2020-01-12T04:52:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-12</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1><span id="java中的抽象和接口">Java中的抽象和接口</span></h1><h2><span id="1抽象类">1.抽象类</span></h2><p><strong>抽象的定义：</strong></p>
-<p>抽象是把多个事物的共性的内容抽取出来，本质就是把我们关注的内容抽取出来。（比如：地铁、汽车、飞机都属于交通工具，交通工具就是我们抽象出的概念）。</p>
-<p><strong>关于抽象类：</strong></p>
-<p>Java中可以定义没有方法体的方法，该方法由其子类具体的实现，该没有方法体的方法我们称之为抽象方法，含有抽象方法的类我们称之为抽象类。</p>
+        <h2><span id="数组">数组</span></h2><h3><span id="1一维数组">1.一维数组</span></h3><ul>
+<li>数组长度一旦确定无法更改。</li>
+<li>数组里的数据必须是相同类型或自动向上转型后兼容的类型</li>
+</ul>
+<p><strong>一维数组的初始化：</strong></p>
+<h5><span id="方法一静态初始化">方法一：静态初始化</span></h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>&#125;;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <a id="more"></a>
 
-<p><strong>抽象方法的特点：</strong>    </p>
-<ul>
-<li>抽象方法使用<code>abstract</code>来修饰</li>
-<li>抽象方法没有方法体</li>
-<li>抽象方法不能被调用</li>
-<li>抽象方法一定要定义在抽象类中</li>
-</ul>
-<p><strong>抽象类的特点</strong>：</p>
-<ul>
-<li>含有抽象方法的类叫抽象类</li>
-<li>抽象类使用<code>abstract</code>来修饰</li>
-<li>抽象类不能被实例化</li>
-<li>抽象类中可以没有抽象方法</li>
-<li>只有覆盖了抽象类中所有的抽象方法后，其子类才可以创建对象，否则该子类还是一个抽象类</li>
-</ul>
-<p><strong>抽象的定义格式：</strong></p>
-<ul>
-<li>抽象方法的定义格式：<code>public abstract 返回值类型 方法名（参数）;</code></li>
-<li>抽象类的定义格式：<code>abstract class 类名{       }</code></li>
-<li>抽象类的的方法必须全部都被子类实现，如果子类没有全部实现，那么子类也是抽象类</li>
-</ul>
-<p><strong>实际用法：</strong></p>
-<ul>
-<li><p>首先定义一个抽象类</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	定义一个员工类，然后对员工的共性都需要工作进行抽取抽象化</span></span><br><span class="line"><span class="comment">	并定义抽象方法工作</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;</span><br><span class="line">	<span class="comment">// 抽象的方法必须存在抽象类中，类也必须使用abstract关键字修饰</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">work</span><span class="params">()</span></span>;<span class="comment">// 抽象方法不能有方法体，所以以;结尾</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在创建Java类继承Employee类，重写父类抽象方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java</span> <span class="keyword">extends</span> <span class="title">Employee</span> </span>&#123;</span><br><span class="line">	<span class="comment">// 重写父类抽象方法，删除abstract关键字并添加方法体</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">work</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">		System.out.println(<span class="string">"正在开发"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在测试方法中调用</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// TODO 自动生成的方法存根</span></span><br><span class="line">		Java j = <span class="keyword">new</span> Java();</span><br><span class="line">		j.work();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5><span id="方法二动态初始化">方法二：动态初始化</span></h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>];<span class="comment">// 开辟数组的空间</span></span><br><span class="line">		b[<span class="number">0</span>] = <span class="number">1</span>;<span class="comment">// 数组的下标从0开始</span></span><br><span class="line">		b[<span class="number">1</span>] = <span class="number">2</span>;</span><br><span class="line">		b[<span class="number">2</span>] = <span class="number">3</span>;</span><br><span class="line">		b[<span class="number">3</span>] = <span class="number">4</span>;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-</li>
+<h5><span id="数组的默认值">数组的默认值</span></h5><table>
+<thead>
+<tr>
+<th>数组类型</th>
+<th>初始值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>byte</td>
+<td>0</td>
+</tr>
+<tr>
+<td>short</td>
+<td>0</td>
+</tr>
+<tr>
+<td>int</td>
+<td>0</td>
+</tr>
+<tr>
+<td>long</td>
+<td>0</td>
+</tr>
+<tr>
+<td>float</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>double</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>false</td>
+</tr>
+<tr>
+<td>char</td>
+<td>编码为0的字符</td>
+</tr>
+<tr>
+<td>String</td>
+<td>null</td>
+</tr>
+</tbody></table>
+<h3><span id="2-二维数组">2.    二维数组</span></h3><ul>
+<li>格式：int [][] i =new int[一维数组长度]  [二维数组长度];</li>
 </ul>
-<h2><span id="2接口">2.接口</span></h2><ul>
-<li><p>因为Java不支持多重继承，所以有了接口。一个类只能有一个父类，但可以实现多个接口，接口本身也可以继承多个接口</p>
-</li>
-<li><p>接口中的成员变量默认为常量，编写时可以省略<code>public static final</code></p>
-</li>
-<li><p>接口里面的方法默认都是抽象方法，编写时可以省略<code>public abstract</code></p>
-</li>
-<li><p>接口中没有构造方法，不能被实例化</p>
-</li>
-<li><p>接口不能实现另一个接口，但是可以继承</p>
-</li>
-<li><p>一个类如果实现了一个接口，就要实现该接口中所有的抽象方法，否则就要定义为抽象类</p>
-</li>
-</ul>
-<p><strong>定义一个接口：</strong></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义一个人类接口</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Person</span> </span>&#123;</span><br><span class="line">	</span><br><span class="line">	<span class="comment">// 每个人必须要吃饭，所以在接口中定义一个eat类</span></span><br><span class="line">	<span class="function"><span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>二维数组的初始化：</strong></p>
+<p><strong>方法一：静态初始化</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[][] b = &#123;&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;,&#123;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>&#125;&#125;;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>定义两个类实现接口：</strong></p>
-<ul>
-<li>午餐类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="comment">//实现Person接口</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">lunch</span> <span class="keyword">implements</span> <span class="title">Person</span></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="comment">//重写接口中的抽象类</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		System.out.println(<span class="string">"正在吃午饭"</span>);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>方法二：动态初始化</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[][] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>][<span class="number">4</span>];</span><br><span class="line">		b[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">1</span>] = <span class="number">2</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">2</span>] = <span class="number">3</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">3</span>] = <span class="number">4</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">0</span>] = <span class="number">5</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">1</span>] = <span class="number">6</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">2</span>] = <span class="number">7</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">3</span>] = <span class="number">8</span>; </span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>早餐类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">breakfast</span> <span class="keyword">implements</span> <span class="title">Person</span></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="comment">//重写接口中的抽象类</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		System.out.println(<span class="string">"正在吃早餐"</span>);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>定义一个测试类：</strong></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="comment">//实现Person接口</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// 调用午餐</span></span><br><span class="line">		Person p = <span class="keyword">new</span> lunch();</span><br><span class="line">		p.eat();<span class="comment">// 正在吃午餐</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// 调用早餐</span></span><br><span class="line">		Person p1 = <span class="keyword">new</span> breakfast();</span><br><span class="line">		p1.eat();<span class="comment">// 正在吃早餐</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2><span id="抽象类和接口的区别">抽象类和接口的区别</span></h2><p>  抽象类的功能应该远远多于接口。但是定义抽象类的代价是比较高的。Java中不允许多继承，你在设计一个父类为抽象类的时候，一定得将这个类的子类所有的共同属性和方法都定义出来；但是接口可以不用这样。因为接口是一个方法的集合，一个类可以实现多个接口。所以接口中只有一个方法，还是两个方法，都是可以的。之后如果还有新的方法，可以设计一个新接口。抽象类的设计必须谨慎，接口的设计比较灵活</p>
+<h3><span id="3-数组的遍历">3.    数组的遍历</span></h3><p><strong>一维数组的遍历：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>];</span><br><span class="line">		b[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">		b[<span class="number">1</span>] = <span class="number">2</span>;</span><br><span class="line">		b[<span class="number">2</span>] = <span class="number">3</span>;</span><br><span class="line">		b[<span class="number">3</span>] = <span class="number">4</span>;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; b.length;i++) &#123;</span><br><span class="line">			System.out.println(b[i]);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	运行结果为</span></span><br><span class="line"><span class="comment">	1</span></span><br><span class="line"><span class="comment">	2</span></span><br><span class="line"><span class="comment">	3</span></span><br><span class="line"><span class="comment">	4</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>二维数组的遍历：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[][] b = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>][<span class="number">4</span>];</span><br><span class="line">		b[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">1</span>] = <span class="number">2</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">2</span>] = <span class="number">3</span>; </span><br><span class="line">		b[<span class="number">0</span>][<span class="number">3</span>] = <span class="number">4</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">0</span>] = <span class="number">5</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">1</span>] = <span class="number">6</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">2</span>] = <span class="number">7</span>; </span><br><span class="line">		b[<span class="number">1</span>][<span class="number">3</span>] = <span class="number">8</span>;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; b.length;i++) &#123;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; b[i].length;j++) &#123;</span><br><span class="line">				System.out.print(b[i][j] + <span class="string">" "</span>);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	运行结果为</span></span><br><span class="line"><span class="comment">	1 2 3 4 5 6 7 8 </span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
 
       
 
@@ -296,7 +297,7 @@
     <a class="close js-modal-close" href="javascript:;" target="_blank" rel="noopener"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/child/2020/01/03/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/child/2020/01/12/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -310,18 +311,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/01/09/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%934/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/01/13/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%866/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Java自学总结(4)
+          Java知识梳理(六)
         
       </div>
     </a>
   
   
-    <a href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%932/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Java自学总结(2)</div>
+    <a href="/2020/01/09/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%864/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Java知识梳理(四)</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -360,7 +361,7 @@
 <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-  id: "http://yoursite.com/child/2020/01/03/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933/",
+  id: "http://yoursite.com/child/2020/01/12/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865/",
   owner: 'xjhxixi',
   repo: 'xjhxixi.github.io',
   oauth: {
@@ -467,15 +468,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">blog</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color2">github</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
               </li>
             
             <div class="clearfix"></div>

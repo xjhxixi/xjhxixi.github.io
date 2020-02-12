@@ -233,7 +233,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/21/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%937/">Java自学总结(7)</a>
+      <a class="article-title" href="/2020/01/21/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%937/">Java知识梳理(七)</a>
     </h1>
   
 
@@ -302,19 +302,19 @@
 
 
   
-    <article id="post-Java自学总结6" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java知识梳理6" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/13/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%936/">Java自学总结(6)</a>
+      <a class="article-title" href="/2020/01/13/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%866/">Java知识梳理(六)</a>
     </h1>
   
 
         
-        <a href="/2020/01/13/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%936/" class="archive-article-date">
+        <a href="/2020/01/13/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%866/" class="archive-article-date">
   	<time datetime="2020-01-13T05:16:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-13</time>
 </a>
         
@@ -322,8 +322,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="关于Java的String常用类"><a href="#关于Java的String常用类" class="headerlink" title="关于Java的String常用类"></a>关于Java的String常用类</h1><h2 id="1-String的基本理解"><a href="#1-String的基本理解" class="headerlink" title="1.    String的基本理解"></a>1.    String的基本理解</h2><ul>
-<li>java.long.string是字符串类型</li>
+        <h2 id="String常用类"><a href="#String常用类" class="headerlink" title="String常用类"></a>String常用类</h2><h3 id="1-String的基本理解"><a href="#1-String的基本理解" class="headerlink" title="1.    String的基本理解"></a>1.    String的基本理解</h3><ul>
+<li>java.long.string是字符串类型</li>
 <li>字符串对象一旦创建不可再改变</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">StringTest01</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// 创建一个“abc”字符串对象，该对象的内存地址让s1保存</span></span><br><span class="line">		<span class="comment">// s1是一个引用，指向“abc”对象</span></span><br><span class="line">		String s1 = <span class="string">"abc"</span>;</span><br><span class="line"></span><br><span class="line">		String a = <span class="string">"abcd"</span>;<span class="comment">// 在字符串常池中新建一个“abcd”对象，该对象不可变</span></span><br><span class="line">		String b = <span class="string">"abcd"</span>;<span class="comment">// 从字符串常池中直接拿来用</span></span><br><span class="line">		System.out.println(a == b); <span class="comment">// true</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// 比较两个字符串相等不能用“==”</span></span><br><span class="line">		String s2 = <span class="keyword">new</span> String(<span class="string">"aaa"</span>);</span><br><span class="line">		String s3 = <span class="keyword">new</span> String(<span class="string">"aaa"</span>);</span><br><span class="line">		System.out.println(s2 == s3); <span class="comment">// flase</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// 比较两个字符串是否一致必须使用equals</span></span><br><span class="line">		System.out.println(s2.equals(s3));<span class="comment">// true</span></span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -350,7 +350,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/13/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%936/">阅读全文 >></a>
+          <a class="article-more-a" href="/2020/01/13/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%866/">阅读全文 >></a>
         </p>
       
 
@@ -380,19 +380,19 @@
 
 
   
-    <article id="post-Java自学总结5" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java知识梳理5" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/12/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935/">Java自学总结(5)</a>
+      <a class="article-title" href="/2020/01/12/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865/">Java知识梳理(五)</a>
     </h1>
   
 
         
-        <a href="/2020/01/12/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935/" class="archive-article-date">
+        <a href="/2020/01/12/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865/" class="archive-article-date">
   	<time datetime="2020-01-12T04:52:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-12</time>
 </a>
         
@@ -400,7 +400,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="关于Java数组"><a href="#关于Java数组" class="headerlink" title="关于Java数组"></a>关于Java数组</h1><h2 id="1-一维数组"><a href="#1-一维数组" class="headerlink" title="1.一维数组"></a>1.一维数组</h2><ul>
+        <h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><h3 id="1-一维数组"><a href="#1-一维数组" class="headerlink" title="1.一维数组"></a>1.一维数组</h3><ul>
 <li>数组长度一旦确定无法更改。</li>
 <li>数组里的数据必须是相同类型或自动向上转型后兼容的类型</li>
 </ul>
@@ -429,7 +429,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/12/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%935/">阅读全文 >></a>
+          <a class="article-more-a" href="/2020/01/12/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%865/">阅读全文 >></a>
         </p>
       
 
@@ -459,19 +459,19 @@
 
 
   
-    <article id="post-Java自学总结4" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java知识梳理4" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/09/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%934/">Java自学总结(4)</a>
+      <a class="article-title" href="/2020/01/09/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%864/">Java知识梳理(四)</a>
     </h1>
   
 
         
-        <a href="/2020/01/09/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%934/" class="archive-article-date">
+        <a href="/2020/01/09/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%864/" class="archive-article-date">
   	<time datetime="2020-01-09T07:16:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-09</time>
 </a>
         
@@ -479,10 +479,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="关于Java中的异常处理机制"><a href="#关于Java中的异常处理机制" class="headerlink" title="关于Java中的异常处理机制"></a>关于Java中的异常处理机制</h1><p><strong>Java中的异常被分为运行时异常和编译时异常</strong></p>
-<h2 id="1-运行时异常"><a href="#1-运行时异常" class="headerlink" title="1.    运行时异常"></a>1.    运行时异常</h2><p><strong>定义：</strong><code>RuntimeException</code>及其子类都被称为运行时异常</p>
+        <h2 id="异常处理机制"><a href="#异常处理机制" class="headerlink" title="异常处理机制"></a>异常处理机制</h2><p><strong>Java中的异常被分为运行时异常和编译时异常</strong></p>
+<h3 id="1-运行时异常"><a href="#1-运行时异常" class="headerlink" title="1.    运行时异常"></a>1.    运行时异常</h3><p><strong>定义：</strong><code>RuntimeException</code>及其子类都被称为运行时异常</p>
 <p><strong>特点：</strong>运行时异常在编译阶段不会报错，但在程序执行阶段会出现异常，例如除以零的运算，编译时能正常通过，但运行时会出现<code>ArithmeticException</code>异常</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> a = <span class="number">10</span>,b = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">int</span> c = a/b;</span><br><span class="line">		System.out.println(c);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	以上程序为运行时异常，在编译器没有任何问题但是在运行期会出现以下的异常：</span></span><br><span class="line"><span class="comment">	Exception in thread "main" java.lang.ArithmeticException: / by zero</span></span><br><span class="line"><span class="comment">		at Test.Test.main(Test.java:6)</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> a = <span class="number">10</span>,b = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">int</span> c = a/b;</span><br><span class="line">		System.out.println(c);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	以上程序为运行时异常，在编译器没有任何问题但是在运行期会出现以下的异常：</span></span><br><span class="line"><span class="comment">	Exception in thread "main" java.lang.ArithmeticException: / by zero</span></span><br><span class="line"><span class="comment">		at Test.Test.main(Test.java:6)</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
 
 <p>如果产生运行时异常，通常需要通过修改代码来进行避免。</p>
         
@@ -508,7 +508,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/09/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%934/">阅读全文 >></a>
+          <a class="article-more-a" href="/2020/01/09/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%864/">阅读全文 >></a>
         </p>
       
 
@@ -538,19 +538,19 @@
 
 
   
-    <article id="post-Java自学总结3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java知识梳理3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/03/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933/">Java自学总结(3)</a>
+      <a class="article-title" href="/2020/01/03/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%863/">Java知识梳理(三)</a>
     </h1>
   
 
         
-        <a href="/2020/01/03/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933/" class="archive-article-date">
+        <a href="/2020/01/03/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%863/" class="archive-article-date">
   	<time datetime="2020-01-03T03:36:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-03</time>
 </a>
         
@@ -558,7 +558,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Java中的抽象和接口"><a href="#Java中的抽象和接口" class="headerlink" title="Java中的抽象和接口"></a>Java中的抽象和接口</h1><h2 id="1-抽象类"><a href="#1-抽象类" class="headerlink" title="1.抽象类"></a>1.抽象类</h2><p><strong>抽象的定义：</strong></p>
+        <h2 id="抽象和接口"><a href="#抽象和接口" class="headerlink" title="抽象和接口"></a>抽象和接口</h2><h3 id="1-抽象类"><a href="#1-抽象类" class="headerlink" title="1.抽象类"></a>1.抽象类</h3><p><strong>抽象的定义：</strong></p>
 <p>抽象是把多个事物的共性的内容抽取出来，本质就是把我们关注的内容抽取出来。（比如：地铁、汽车、飞机都属于交通工具，交通工具就是我们抽象出的概念）。</p>
 <p><strong>关于抽象类：</strong></p>
 <p>Java中可以定义没有方法体的方法，该方法由其子类具体的实现，该没有方法体的方法我们称之为抽象方法，含有抽象方法的类我们称之为抽象类。</p>
@@ -585,7 +585,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/03/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%933/">阅读全文 >></a>
+          <a class="article-more-a" href="/2020/01/03/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%863/">阅读全文 >></a>
         </p>
       
 
@@ -615,19 +615,19 @@
 
 
   
-    <article id="post-Java自学总结2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java知识梳理2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%932/">Java自学总结(2)</a>
+      <a class="article-title" href="/2019/12/29/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%862/">Java知识梳理(二)</a>
     </h1>
   
 
         
-        <a href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%932/" class="archive-article-date">
+        <a href="/2019/12/29/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%862/" class="archive-article-date">
   	<time datetime="2019-12-29T05:19:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-29</time>
 </a>
         
@@ -635,14 +635,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="关于Java中的封装，继承，多态"><a href="#关于Java中的封装，继承，多态" class="headerlink" title="关于Java中的封装，继承，多态"></a>关于Java中的封装，继承，多态</h1><h3 id="Tips：关于Java中修饰符的访问权限"><a href="#Tips：关于Java中修饰符的访问权限" class="headerlink" title="Tips：关于Java中修饰符的访问权限"></a>Tips：关于Java中修饰符的访问权限</h3><table>
+        <h2 id="封装，继承，多态"><a href="#封装，继承，多态" class="headerlink" title="封装，继承，多态"></a>封装，继承，多态</h2><p><strong>关于Java中修饰符的访问权限</strong></p>
+<table>
 <thead>
 <tr>
 <th align="center">修饰符</th>
 <th align="center">同一个类</th>
-<th align="center">不同的类</th>
+<th align="center">相同包中不同的类</th>
 <th align="center">子类</th>
-<th align="center">所有类</th>
+<th align="center">不同包中的类</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -707,7 +708,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%932/">阅读全文 >></a>
+          <a class="article-more-a" href="/2019/12/29/Java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%862/">阅读全文 >></a>
         </p>
       
 
@@ -737,19 +738,19 @@
 
 
   
-    <article id="post-Java自学总结1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-java知识梳理1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%931/">Java知识梳理(1)</a>
+      <a class="article-title" href="/2019/12/29/java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861/">Java知识梳理(一)</a>
     </h1>
   
 
         
-        <a href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%931/" class="archive-article-date">
+        <a href="/2019/12/29/java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861/" class="archive-article-date">
   	<time datetime="2019-12-29T04:37:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-29</time>
 </a>
         
@@ -757,7 +758,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Java基础（一）"><a href="#Java基础（一）" class="headerlink" title="Java基础（一）"></a>Java基础（一）</h1><h2 id="1-选择语句"><a href="#1-选择语句" class="headerlink" title="1.选择语句"></a>1.选择语句</h2><h3 id="1-1-IF语句"><a href="#1-1-IF语句" class="headerlink" title="1.1    IF语句"></a>1.1    IF语句</h3><p>单用IF语句的写法为<code>if(    ){    }</code>，括号内为布尔表达式。若判断结果为true，则运行大括号中的java语句，若判断结果为false，则不执行大括号中的java语句。</p>
+        <h2 id="1-选择语句"><a href="#1-选择语句" class="headerlink" title="1.选择语句"></a>1.选择语句</h2><h3 id="1-1-IF语句"><a href="#1-1-IF语句" class="headerlink" title="1.1    IF语句"></a>1.1    IF语句</h3><p>单用IF语句的写法为<code>if(    ){    }</code>，括号内为布尔表达式。若判断结果为true，则运行大括号中的java语句，若判断结果为false，则不执行大括号中的java语句。</p>
 <p><strong>例：</strong></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">true</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">"判断为true"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 执行结果为：判断为true</span></span><br></pre></td></tr></table></figure>
         
@@ -783,7 +784,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/29/Java%E8%87%AA%E5%AD%A6%E6%80%BB%E7%BB%931/">阅读全文 >></a>
+          <a class="article-more-a" href="/2019/12/29/java%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861/">阅读全文 >></a>
         </p>
       
 
@@ -1064,15 +1065,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">blog</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color2">github</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">plan</a>
               </li>
             
             <div class="clearfix"></div>
